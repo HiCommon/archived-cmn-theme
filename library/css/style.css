@@ -1783,9 +1783,22 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 .footer {
+  color: #2b2c2b;
+  font-size: 0.625em;
   clear: both;
-  background-color: #323944;
-  color: #f8f9fa; }
+  background: #f8fafb none;
+  text-align: center;
+  padding: 14px;
+} .footer p {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  margin-top: -28px;
+} .footer #footer-logo {
+  display: inline-block;
+  margin-right: 10px;
+}
 
 /*
 if you checked out the link above:
