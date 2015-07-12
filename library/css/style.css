@@ -84,8 +84,16 @@ html {
 /**
  * Remove default margin.
  */
+html, body {
+  height: 100%;
+}
 body {
-  margin: 0; }
+  margin: 0;
+}
+#container {
+  min-height: 100%;
+  position: relative;
+}
 
 /* ==========================================================================
    Links
@@ -1782,6 +1790,8 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
+
+
 .footer {
   color: #2b2c2b;
   font-size: 0.625em;
@@ -1789,6 +1799,10 @@ FOOTER STYLES
   background: #f8fafb none;
   text-align: center;
   padding: 14px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
 } .footer p {
   display: inline-block;
   padding: 0;
