@@ -1836,6 +1836,17 @@ override these styles for the desktop
 view.
 */
 /* end .footer-links */
+
+
+
+@media (max-width: 767px) {
+  .hentry {
+    width: 100%;
+  }
+}
+
+
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -1890,6 +1901,7 @@ tweeners.
   POSTS & CONTENT STYLES
   *********************/
   /* entry content */
+
   .entry-content {
     /* at this larger size, we can start to align images */ }
     .entry-content .alignleft, .entry-content img.alignleft {
@@ -2105,6 +2117,8 @@ query for retina AND a certain size if you want. Go Nuts.
   Site Name:
   Author:
 
+
+
   Stylesheet: Retina Screens & Devices Stylesheet
 
   When handling retina screens you need to make adjustments, especially
@@ -2140,7 +2154,9 @@ query for retina AND a certain size if you want. Go Nuts.
   (this is pretty standard practice). Set the background image so it matches
   the original dimensions and you are good to go.
 
-  */ }
+  */
+
+}
 /*********************
 PRINT STYLESHEET
 Feel free to customize this. Remember to add things that won't make
