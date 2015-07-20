@@ -1378,6 +1378,10 @@ HEADER STYLES
   z-index: 1000;
 }
 
+#inner-header {
+  line-height: 0px;
+}
+
 #logo {
   margin: 0.75em 0; }
   #logo a {
@@ -1840,6 +1844,13 @@ view.
 
 
 @media (max-width: 767px) {
+
+  .header {
+    position: static;
+  } #content {
+    margin-top: 0;
+  }
+  /*Full width content on smaller screens */
   .hentry {
     width: 100%;
   }
