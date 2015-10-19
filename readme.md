@@ -21,3 +21,6 @@ Push changes to production.
 $> git push production master
 ```
 
+Clear cache in GoDaddy console.
+Login to Wordpress Admin page. Click `Flush Cache`
+
