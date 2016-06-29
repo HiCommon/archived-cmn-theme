@@ -931,6 +931,23 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   .blue-btn:active, .comment-reply-link:active, #submit:active {
     top: 1px; }
 
+.btn-wht {
+  background: #FFFFFF;
+  color: #d34d35;
+  border: 2px solid #d34d35;
+  outline: none;
+  margin-top: -8px;
+  padding: 6px 24px;
+}
+.btn-wht:hover {
+  background: #d34d35;
+  border-color: #d34d35;
+  color: #FFFFFF; }
+  .btn-wht:hover > a {
+    color: #FFFFFF; }
+  .btn-wht > a:hover {
+    color: #FFFFFF !important; }
+
 /*
 An example button.
 You can use this example if you want. Just replace all the variables
