@@ -30,13 +30,8 @@
             <meta name="theme-color" content="#121212">
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-<<<<<<< HEAD
-		<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Lato:300italic,300' rel='stylesheet' type='text/css'>
-=======
 		<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
->>>>>>> updating fonts to use https
 
 		<?php // wordpress head functions ?>
 		<?php wp_head(); ?>
