@@ -1628,6 +1628,7 @@ PAGE NAVI STYLES
   margin: 1.5em 0 calc(1.5em + 63px); }
 
 .pagination {
+  margin-bottom: 70px;
   text-align: center; }
   .pagination ul {
     display: inline-block;
